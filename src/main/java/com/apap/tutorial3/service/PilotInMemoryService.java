@@ -59,8 +59,17 @@ public class PilotInMemoryService implements PilotService {
 	@Override
 	public PilotModel getPilotDetailByLicenseNumber(Optional<String> licenseNumber) {
 		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+/*
+	@Override
+	public PilotModel getPilotDetailByLicenseNumber(Optional<String> licenseNumber) {
+		// TODO Auto-generated method stub
 		for(int i=0;i<archivePilot.size();i++) {
-			if(archivePilot.get(i).getLicenseNumber().equals(licenseNumber)) {
+			if(archivePilot.get(i).getLicenseNumber().equals(String.valueOf(licenseNumber))) {
 				return archivePilot.get(i);
 			}
 			
@@ -70,7 +79,7 @@ public class PilotInMemoryService implements PilotService {
 	}
 	
 	
-
+*/
 
 
 
